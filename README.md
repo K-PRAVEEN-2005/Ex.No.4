@@ -1,254 +1,133 @@
-# Ex.No.4 - Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+# Ex.No.4 – Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 
-## NAME: PRAVEEN K
-## REGISTER NUMBER: 212223230153
-## DATE: 13/09/2025
 
 ---
 
-# Aim
+## Aim:
 
-To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts.
+To design an **AI-powered chatbot** that assists customers in resolving issues related to **product troubleshooting, order tracking, and general inquiries**. The chatbot should handle customer queries efficiently while maintaining a conversational and user-friendly tone.
 
----
-
-# Case Study 2
-
-## Scenario
-
-The manufacturing industry is looking to reduce manual monitoring and increase efficiency through automation. The system will utilize IoT devices and embedded controllers to automate equipment, monitor performance, and enable predictive maintenance. The goal is to streamline the production process, minimize downtime, and enhance energy efficiency.
-
-## Target Audience
-
-Manufacturing companies, specifically in sectors like automotive, electronics, and food processing, where automation can significantly improve productivity.
-
-## Main Objectives
-
-- Improve production efficiency by 30%.
-- Minimize machinery downtime with predictive maintenance.
-- Enable real-time monitoring and remote control of manufacturing systems.
-- Reduce energy consumption by optimizing processes.
+In this experiment (Case Study 2), we will employ **different prompting techniques** — Comparative Analysis Prompt, Universal Prompt, Structured Prompt Refinements, and Prompt Size Limitations — to design a report for a selected **Unit 5 use case**, using **Unit 2 prompt types**.
 
 ---
 
-# Prompt Patterns and Generated Responses
+## Explanation:
 
-## 1. Comparative Analysis Prompt
+### Scenario:
 
-### Prompt Used:
+The **manufacturing industry** is seeking ways to reduce manual monitoring and increase efficiency through automation. The system integrates **IoT devices** and **embedded controllers** to automate equipment, monitor performance, and enable predictive maintenance.
 
-"Compare manual monitoring with IoT-based automation in manufacturing."
+### Target Audience:
 
-### Generated Output:
+* Manufacturing companies in **automotive, electronics, and food processing** sectors.
+* Industries that can achieve significant productivity improvements via automation.
 
-Manual monitoring is time-consuming and prone to errors. IoT-based automation ensures real-time, accurate data collection and enables predictive actions to prevent equipment failures. Automated systems also reduce human intervention and enhance productivity.
+### Main Objectives:
 
----
-
-## 2. Universal Prompt
-
-### Prompt Used:
-
-"How can we improve industrial performance using AI and automation?"
-
-### Generated Output:
-
-We can improve performance by deploying smart sensors, machine learning models for predictive maintenance, and control systems that adapt based on real-time inputs. This results in better throughput, efficiency, and less downtime.
+* Improve production efficiency by **30%**.
+* Minimize machinery downtime using **predictive maintenance**.
+* Enable **real-time monitoring** and **remote control** of manufacturing systems.
+* Reduce **energy consumption** by optimizing processes.
 
 ---
 
-## 3. Structured Prompt Refinements
+## Procedure:
 
-### Prompt Used:
+### 1. Idea Generation Prompts
 
-"List steps to implement an IoT-based monitoring system in a factory."
+* **Prompt:**
 
-### Generated Output:
+  > “What features can be incorporated into the automation system to optimize production and reduce downtime?”
 
-1. Identify target machines for monitoring.  
-2. Install IoT sensors on critical components.  
-3. Set up data transmission through secure protocols.  
-4. Configure cloud dashboards for visualization.  
-5. Train staff for monitoring and basic troubleshooting.
+* **Generated Ideas:**
 
----
-
-## 4. Prompt Size Limitations
-
-
-![PRompt-Eng-03-1024x768](https://github.com/user-attachments/assets/866db0e1-19c3-43e5-8e90-e98fbb473be2)
-
-
-
-
-
-
-
-### Observation:
-
-When prompts exceed 200 tokens, AI tends to summarize instead of generating detailed steps. Splitting complex prompts into smaller ones improved the depth and relevance of outputs.
+  * Sensors for **real-time monitoring** of equipment performance.
+  * **Predictive maintenance alerts** to anticipate equipment failures.
+  * **Energy usage optimization** via automated switching based on demand.
+  * **Cloud-based dashboards** for remote monitoring and control.
 
 ---
 
-## 5. Idea Generation Prompts
+### 2. Persona and Context Prompts
 
-### Prompt Used:
+* **Prompt:**
 
-"What features can be incorporated into the automation system to optimize production and reduce downtime?"
+  > “What should the user interface and control system convey to the operators and managers?”
 
-### Generated Ideas:
+* **Generated Context:**
 
-- Sensors for real-time monitoring of equipment performance.  
-- Predictive maintenance alerts to anticipate equipment failures.  
-- Energy usage optimization by automating machine operation.  
-- Cloud-based dashboards for remote monitoring and control.
+  * UI should be **intuitive**, displaying machine performance, energy usage, and alerts.
+  * System should convey **reliability** and **ease of use**, requiring minimal training.
 
 ---
 
-## 6. Task-Oriented Prompt
+### 3. Comparative Analysis Prompt
 
-### Prompt Used:
+* **Prompt:**
 
-"List the specific tasks an AI-based control system must perform in a manufacturing plant."
+  > “Compare traditional manual monitoring with the IoT-enabled automated system in terms of efficiency, downtime, and energy usage.”
 
-### Generated Tasks Table:
+* **Generated Analysis:**
 
-| Task ID | Task Description                          | Expected Output                          |
-|---------|--------------------------------------------|-------------------------------------------|
-| T1      | Monitor machine temperature and vibration  | Alerts if values exceed threshold         |
-| T2      | Schedule predictive maintenance            | Auto-generate work orders                 |
-| T3      | Control conveyor belt speed                | Adjust speed based on load and timing     |
-| T4      | Track power consumption per unit           | Display real-time and historical usage    |
-| T5      | Report generation                          | Generate daily/weekly efficiency reports  |
+  * **Traditional Monitoring:** Labor-intensive, prone to errors, frequent downtime, delayed response.
+  * **IoT Automation:** **30% efficiency increase**, predictive maintenance reduces downtime, optimized energy management, improved accuracy and scalability.
 
 ---
 
-## 7. Role-Based Prompt
+### 4. Universal Prompt
 
-### Prompt Used:
+* **Prompt:**
 
-"What should different stakeholders (technicians, supervisors, IT staff) expect from a factory automation dashboard?"
+  > “Generate a universal system description for an IoT-enabled manufacturing automation platform suitable for all industries.”
 
-### Generated Output:
+* **Generated Output:**
 
-Technicians require live system alerts and equipment control access. Supervisors expect a dashboard that provides KPIs, visualized performance data, and downtime analysis. IT staff focus on security logs, system uptime, and software/hardware diagnostics for reliable operation.
-
----
-
-## 8. Evaluation Prompt
-
-### Prompt Used:
-
-"How effective is the automation solution in reducing downtime and increasing output compared to last quarter?"
-
-### Generated Metrics Table:
-
-| Metric                     | Last Quarter | Current Quarter | Change (%)      |
-|----------------------------|--------------|------------------|------------------|
-| Average Downtime (hrs)     | 18           | 6                | -66.6%           |
-| Production Output (units)  | 10,000       | 13,500           | +35%             |
-| Maintenance Requests       | 30           | 12               | -60%             |
+  * A **scalable, cloud-integrated IoT automation platform** with real-time monitoring, predictive analytics, energy optimization, and user-friendly dashboards adaptable across multiple industries.
 
 ---
 
-## 9. Goal-Driven Prompt
+### 5. Structured Prompt Refinements
 
-### Prompt Used:
+* **Prompt:**
 
-"What goals should an AI-integrated automation system fulfill within the first year of implementation?"
+  > “Refine the system description into structured sections: Objectives, Features, Benefits.”
 
-### Generated Output:
+* **Generated Output:**
 
-The system must aim to boost production by 30%, automate 70% of manual tasks, and reduce machine downtime by 50%. It should also achieve a 20% cut in energy consumption through intelligent process control.
-
----
-
-## 10. Limitation and Constraint Prompt
-
-
-![67d365eced8697e7f3d66cbe_67ab938e4458b66fed3ba339_Screenshot20121422](https://github.com/user-attachments/assets/936233db-d807-472d-af2b-98edf64dff05)
-
-
-
-### Prompt Used:
-
-"What are the possible limitations when implementing IoT-based automation in legacy factories?"
-
-### Generated Output:
-
-Key limitations include hardware compatibility with older machines, poor connectivity infrastructure, and workforce skill gaps. These can be addressed using retrofitting tools, network upgrades, and comprehensive training programs.
+  * **Objectives:** Increase efficiency, minimize downtime, optimize energy.
+  * **Features:** IoT sensors, predictive alerts, dashboards, automation controllers.
+  * **Benefits:** 30% productivity boost, cost reduction, sustainable energy use, higher reliability.
 
 ---
 
-## 11. Workflow Optimization Prompt
+### 6. Prompt Size Limitations
 
-### Prompt Used:
+* **Prompt:**
 
-"How can the production workflow be improved using AI scheduling algorithms?"
+  > “Summarize the entire automation system in less than 40 words.”
 
-### Generated Output:
+* **Generated Summary:**
 
-AI scheduling algorithms help prioritize jobs based on resource availability, minimize idle time, and dynamically reroute tasks in case of machine failures. This leads to improved throughput and balanced workloads.
-
----
-
-## 12. Conversational Prompt for Chatbot Integration
-
-### Prompt Used:
-
-"Design a chatbot prompt to help users navigate machine failure reports."
-
-### Generated Output:
-
-"Hi! I noticed an alert on machine #12. Would you like to view the failure report, check previous maintenance logs, or request assistance from a technician?"
+  * “A cloud-based IoT automation platform enabling real-time monitoring, predictive maintenance, and energy optimization to improve efficiency, reduce downtime, and enhance productivity across industries.”
 
 ---
 
-## 13. Feedback-Oriented Prompt
+## Tabular Summary
 
-### Prompt Used:
-
-"What kind of feedback system should be included in the automation interface?"
-
-### Generated Output:
-
-A feedback module should allow operators to rate system responses, report interface issues, and suggest improvements. This ensures continuous development based on real-world usage.
-
----
-
-## 14. Multi-Modal Prompt
-
-![image](https://github.com/user-attachments/assets/256e8aee-b454-4032-884d-0aec131bd680)
-
-
-### Prompt Used:
-
-"Combine text inputs and image data to detect anomalies in machine behavior."
-
-### Generated Output:
-
-The system uses camera feeds and sensor data to detect visual signs like smoke or misalignment alongside abnormal temperature or vibration patterns, improving anomaly detection accuracy.
+| **Prompt Type**         | **Objective**                      | **Prompt Example**                                              | **Generated Output**                                                                                     |
+| ----------------------- | ---------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Idea Generation         | Generate system features           | “What features can be incorporated into the automation system?” | Real-time sensors, predictive maintenance, energy optimization, cloud dashboards                         |
+| Persona & Context       | Define UI and operator interaction | “What should the user interface convey to operators/managers?”  | Intuitive UI, real-time data, reliability, ease of use                                                   |
+| Comparative Analysis    | Compare old vs new systems         | “Compare manual monitoring vs IoT-enabled automation.”          | IoT: higher efficiency, predictive alerts, optimized energy vs Manual: costly, error-prone, downtime     |
+| Universal Prompt        | General system design              | “Generate a universal IoT automation platform description.”     | Scalable IoT platform with monitoring, analytics, dashboards, energy optimization                        |
+| Structured Refinements  | Organize into sections             | “Refine into Objectives, Features, Benefits.”                   | Objectives: efficiency, downtime, energy. Features: IoT, dashboards. Benefits: productivity, cost saving |
+| Prompt Size Limitations | Concise summary                    | “Summarize in <40 words.”                                       | Cloud-based IoT platform with real-time monitoring, predictive maintenance, energy optimization.         |
 
 ---
 
-## 15. Sustainability-Driven Prompt
+## Result:
 
-### Prompt Used:
-
-"How can automation contribute to environmental sustainability in factories?"
-
-### Generated Output:
-
-Automation can reduce energy wastage through smart control of machinery, minimize raw material overuse by precise tracking, and decrease emissions by reducing idle machine times and optimizing resource allocation.
+Thus, the prompts were executed successfully.
 
 ---
 
-# Result
-
-The various types of prompts were executed successfully and helped generate a comprehensive report using diverse prompting techniques.
-
----
-
-# Conclusion
-
-Thus, the chatbot development and automation planning using scenario-based prompt engineering were successfully demonstrated.
